@@ -1,14 +1,28 @@
 <template>
   <div class=''>
-    <router-view></router-view>
+    My
   </div>
 </template>
 <script>
 export default {
-  name: 'App',
+  name: 'My',
+  props: {
+  },
   data () {
     return {
     }
+  },
+  methods: {
+  },
+  created () {
+  },
+  mounted () {
+  },
+  watch: {
+  },
+  computed: {
+  },
+  components: {
   }
 }
 </script>

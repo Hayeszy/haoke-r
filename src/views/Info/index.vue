@@ -1,14 +1,28 @@
 <template>
   <div class=''>
-    <router-view></router-view>
+    Info
   </div>
 </template>
 <script>
 export default {
-  name: 'App',
+  name: 'Info',
+  props: {
+  },
   data () {
     return {
     }
+  },
+  methods: {
+  },
+  created () {
+  },
+  mounted () {
+  },
+  watch: {
+  },
+  computed: {
+  },
+  components: {
   }
 }
 </script>
