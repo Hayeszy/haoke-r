@@ -8,6 +8,7 @@
     <van-tabbar
       class="layout-tabbar"
       route
+      active-color="rgb(33, 185, 122)"
     >
       <van-tabbar-item
         replace

@@ -2,6 +2,7 @@
  * 用户相关请求模块
  */
 import request from '@/utils/request'
+import store from '@/api/user'
 
 export const login = (username, password) => {
   return request({
@@ -16,8 +17,10 @@ export const login = (username, password) => {
  */
 export const getUserInfo = () => {
   return request({
-    method: 'GET',
-    url: '/user'
+    url: '/user',
+    headers: {
+      Authorization: `Bearer ${store.state.user.token}`
+    }
   })
 }
 
