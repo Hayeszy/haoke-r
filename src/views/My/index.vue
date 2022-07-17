@@ -87,6 +87,7 @@
           class="grid-item"
           icon="star-o"
           text="我的收藏"
+          to="/myfavorites"
         />
         <van-grid-item
           class="grid-item"
