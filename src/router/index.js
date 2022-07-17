@@ -40,6 +40,11 @@ const routes = [
     path: '/myfavorites',
     name: 'myfavorites',
     component: () => import('@/views/MyFavorites')
+  },
+  {
+    path: '/myrent',
+    name: 'myrent',
+    component: () => import('@/views/Rent')
   }
 ]
 

@@ -93,6 +93,7 @@
           class="grid-item"
           icon="wap-home-o"
           text="我的出租"
+          to="/myrent"
         />
         <van-grid-item
           class="grid-item"
